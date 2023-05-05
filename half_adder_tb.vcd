@@ -1,0 +1,118 @@
+$date
+	Tue Jan 24 11:21:16 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module half_adder_tb $end
+$var wire 1 ! result $end
+$var wire 1 " carryout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 1 % clk $end
+$var reg 1 & expected_result $end
+$var reg 1 ' reset $end
+$var integer 32 ( failedTests [31:0] $end
+$var integer 32 ) totalTests [31:0] $end
+$scope module uut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 * s_w $end
+$var wire 1 + c_out_w $end
+$var reg 1 " c_out $end
+$var reg 1 ! s $end
+$scope module and1 $end
+$var wire 2 , a [1:0] $end
+$var wire 1 + result $end
+$upscope $end
+$scope module xor1 $end
+$var wire 2 - a [1:0] $end
+$var wire 1 * result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx -
+bx ,
+x+
+x*
+b0 )
+b0 (
+1'
+x&
+0%
+x$
+x#
+x"
+x!
+$end
+#50000
+1%
+#100000
+0'
+0%
+#150000
+1%
+#160000
+0&
+0$
+b0 ,
+b0 -
+0#
+b1 )
+#162000
+0!
+0*
+#163000
+0"
+0+
+#200000
+0%
+#250000
+1%
+#270000
+1&
+b1 ,
+b1 -
+1$
+b10 )
+#272000
+1!
+1*
+#300000
+0%
+#350000
+1%
+#380000
+0$
+b10 ,
+b10 -
+1#
+b11 )
+#400000
+0%
+#450000
+1%
+#490000
+0&
+b11 ,
+b11 -
+1$
+b100 )
+#492000
+0!
+0*
+#493000
+1"
+1+
+#500000
+0%
+#550000
+1%
+#600000
+0%
